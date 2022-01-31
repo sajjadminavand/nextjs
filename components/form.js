@@ -2,42 +2,34 @@ function Form() {
   return (
     <form dir="rtl">
       {" "}
-      <label for="validationTooltip01" class="form-label">
-        * نام و نام خانوادگی
-      </label>
+      <label className="form-label">* نام و نام خانوادگی</label>
       <input
         type="text"
-        class="form-control"
+        className="form-control"
         id="validationTooltip01"
         value=""
         required
       />{" "}
-      <label for="validationTooltip01" class="form-label">
-        *ایمیل
-      </label>
+      <label className="form-label">*ایمیل</label>
       <input
         type="email"
-        class="form-control"
+        className="form-control"
         id="validationTooltip01"
         value=""
         required
       />{" "}
-      <label for="validationTooltip01" class="form-label">
-        *موضوع
-      </label>
+      <label className="form-label">*موضوع</label>
       <input
         type="text"
-        class="form-control"
+        className="form-control"
         id="validationTooltip01"
         value=""
         required
       />{" "}
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">
-          *متن پیام
-        </label>
+      <div className="mb-3">
+        <label class="form-label">*متن پیام</label>
         <textarea
-          class="form-control"
+          className="form-control"
           id="exampleFormControlTextarea1"
           rows="3"
         ></textarea>

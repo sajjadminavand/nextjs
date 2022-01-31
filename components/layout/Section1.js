@@ -5,9 +5,9 @@ import Form from "../form";
 function SectionA() {
   return (
     <react.Fragment>
-      <div class="row cotainer">
-        <div class="col  d-flex align-items-end flex-column mb-5 ">
-          <h5 class="font-weight-bold mt-auto p-2">
+      <div className="row cotainer">
+        <div className="col  d-flex align-items-end flex-column mb-5 ">
+          <h5 className="font-weight-bold mt-auto p-2">
             دنبال نزدیکترین فروشگاه واسه خریدت میگردی؟
             <br />
             <br />
@@ -20,7 +20,7 @@ function SectionA() {
             <b>پس با سین، ببین</b>
           </h5>
         </div>
-        <div class="col-md-6 py-5 ">
+        <div className="col-md-6 py-5 ">
           <Image
             src="/location.png"
             alt="Picture of the author"
@@ -30,7 +30,7 @@ function SectionA() {
           />
         </div>
       </div>
-      <div class="row   justify-content-md-center">
+      <div className="row   justify-content-md-center">
         <Image
           src="/Group 18.png"
           alt="Picture of the author"
@@ -41,10 +41,10 @@ function SectionA() {
       </div>
 
       <div>
-        <h2 class="text-center">خدمات سین کالا</h2>
+        <h2 className="text-center">خدمات سین کالا</h2>
       </div>
-      <div class="row mx-5 mt-5">
-        <div class=" col">
+      <div className="row mx-5 mt-5">
+        <div className=" col">
           <Image
             src="/Group-114.png"
             alt="Picture of the author"
@@ -53,7 +53,7 @@ function SectionA() {
             priority
           />
         </div>
-        <div class=" col">
+        <div className=" col">
           <Image
             src="/Group-115.png"
             alt="Picture of the author"
@@ -62,7 +62,7 @@ function SectionA() {
             priority
           />
         </div>{" "}
-        <div class=" col">
+        <div className=" col">
           {" "}
           <Image
             src="/Group-116.png"
@@ -72,7 +72,7 @@ function SectionA() {
             priority
           />
         </div>{" "}
-        <div class=" col">
+        <div className=" col">
           {" "}
           <Image
             src="/Group-117.png"
@@ -83,7 +83,7 @@ function SectionA() {
           />
         </div>
       </div>
-      <div class="row justify-content-center mt-5">
+      <div className="row justify-content-center mt-5">
         <Image
           src="/Layer_1.png"
           alt="Picture of the author"
@@ -92,11 +92,11 @@ function SectionA() {
           priority
         />
       </div>
-      <div class="row text-center my-5">
+      <div className="row text-center my-5">
         <h3>دستـــه بندی ها</h3>
       </div>
-      <div class="row text-center">
-        <div class="col">
+      <div className="row text-center">
+        <div className="col">
           {" "}
           <Image
             src="/Group 141.png"
@@ -106,7 +106,7 @@ function SectionA() {
             priority
           />
         </div>
-        <div class="col">
+        <div className="col">
           {" "}
           <Image
             src="/Group 2.png"
@@ -116,7 +116,7 @@ function SectionA() {
             priority
           />
         </div>
-        <div class="col">
+        <div className="col">
           {" "}
           <Image
             src="/Group 1.png"
@@ -127,8 +127,8 @@ function SectionA() {
           />
         </div>
       </div>
-      <div class="row text-center">
-        <div class="col">
+      <div className="row text-center">
+        <div className="col">
           {" "}
           <Image
             src="/Group 144.png"
@@ -138,7 +138,7 @@ function SectionA() {
             priority
           />
         </div>
-        <div class="col">
+        <div className="col">
           {" "}
           <Image
             src="/Group 143.png"
@@ -148,7 +148,7 @@ function SectionA() {
             priority
           />
         </div>
-        <div class="col">
+        <div className="col">
           {" "}
           <Image
             src="/Group 142.png"
@@ -159,9 +159,9 @@ function SectionA() {
           />
         </div>
       </div>
-      <div class="row container my-5">
+      <div className="row container my-5">
         {" "}
-        <div class="col-6 pe-5" dir="rtl">
+        <div className="col-6 pe-5" dir="rtl">
           <Image
             src="/all.png"
             alt="Picture of the author"
@@ -170,7 +170,7 @@ function SectionA() {
             priority
           />
         </div>{" "}
-        <div class="col-6" dir="rtl">
+        <div className="col-6" dir="rtl">
           <h3>درباره ما</h3>
           <br />
           <p>
@@ -188,12 +188,12 @@ function SectionA() {
           </p>
         </div>{" "}
       </div>
-      <div class="row container" dir="rtl">
+      <div className="row container" dir="rtl">
         {" "}
-        <div class="col-4">
+        <div className="col-4">
           <Form />
         </div>{" "}
-        <div class="col-8 align-self-end px-5">
+        <div className="col-8 align-self-end px-5">
           {" "}
           <Image
             src="/loc.png"
