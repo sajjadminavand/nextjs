@@ -27,7 +27,7 @@ function Form() {
         required
       />{" "}
       <div className="mb-3">
-        <label class="form-label">*متن پیام</label>
+        <label className="form-label">*متن پیام</label>
         <textarea
           className="form-control"
           id="exampleFormControlTextarea1"
