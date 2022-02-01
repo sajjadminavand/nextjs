@@ -1,12 +1,12 @@
 import react from "react";
 import Nav from "../components/layout/Nav";
-import SectionA from "../components/layout/section1";
+import Section from "../components/layout/Section";
 
 function HomePage() {
   return (
     <react.Fragment>
       <Nav />
-      <SectionA />
+      <Section />
     </react.Fragment>
   );
 }

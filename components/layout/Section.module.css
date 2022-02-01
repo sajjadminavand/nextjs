@@ -1,0 +1,33 @@
+.ad:hover {
+  background-color: rgb(238, 238, 238);
+}
+.ad {
+  border-radius: 70%;
+}
+.ft {
+  background-color: rgb(247, 127, 0);
+}
+.myButton {
+  background: url(/gp.PNG) no-repeat;
+  cursor: pointer;
+  width: 192px;
+  height: 43px;
+  border: none;
+}
+.ul {
+  transform: translate(410, 2896);
+  list-style-type: none;
+  color: rgb(255, 255, 255);
+  font-size: 5;
+  text-decoration: none;
+  opacity: 0.5;
+}
+.ti {
+  color: rgb(255, 255, 255);
+  font-size: 14;
+  text-align: center;
+  padding-right: 1rem;
+}
+.ftz {
+  background-color: rgb(172, 91, 5);
+}
