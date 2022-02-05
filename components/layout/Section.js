@@ -311,8 +311,8 @@ function Section() {
             </div>
             <div className="col-md-4 " dir="rtl">
               <div className="row">
-                <div class="input">
-                  <button class={styles.ba}>
+                <div className="input">
+                  <button className={styles.ba}>
                     <FaTelegramPlane className={styles.bb} />
                   </button>
                   <input
