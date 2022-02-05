@@ -1,8 +1,53 @@
-.ad:hover {
-  background-color: rgb(238, 238, 238);
-}
 .ad {
-  border-radius: 70%;
+  position: relative;
+  width: 300px;
+  height: 100px;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.ad:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.ad:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.ad::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.ad::after {
+  background-color: #fff;
+}
+
+.ad:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+.af {
+  background-color: rgb(247, 127, 0);
+  border-radius: 20px;
+  width: 70px;
+  height: 70px;
+  float: right;
+}
+.ag {
+  width: 50px;
+  height: 70px;
 }
 .ft {
   background-color: rgb(247, 127, 0);
@@ -30,4 +75,63 @@
 }
 .ftz {
   background-color: rgb(172, 91, 5);
+}
+.at {
+  font-size: 30px;
+  margin-left: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+.ar {
+  font-size: 20px;
+  margin-left: 20px;
+  text-align: center;
+  margin-top: 18px;
+}
+
+.ac {
+  border: none;
+}
+.ac:hover {
+  transform: translateY(-3px);
+  transition: all ease 0.2s;
+  background-color: #fff;
+}
+.ba {
+  background-color: #fff;
+  border: none;
+  border-radius: 100%;
+}
+.ba:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.bb {
+  text-align: center;
+  margin: 8px;
+  width: 20px;
+  height: 28px;
+}
+.bc {
+  background-color: rgb(172, 91, 5);
+  width: 192px;
+  height: 43px;
+  border: none;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.bd {
+  background-color: rgb(172, 91, 5);
+  width: 40px;
+  height: 40px;
+  margin: 8px;
+  border-radius: 20px;
+  border: none;
+  transform: translateX(-10px);
+}
+.be {
+  width: 20px;
+  height: 25px;
+}
+.bd:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }

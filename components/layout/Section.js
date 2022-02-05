@@ -2,6 +2,15 @@ import react from "react";
 import Image from "next/image";
 import Form from "../form";
 import styles from "./Section.module.css";
+import { MdLunchDining, MdShoppingCart } from "react-icons/md";
+import {
+  GiAmpleDress,
+  GiCarousel,
+  GiLipstick,
+  GiBrickWall,
+} from "react-icons/gi";
+import { FaTelegramPlane, FaFacebookF, FaTwitter } from "react-icons/fa";
+import { CgTwitter } from "react-icons/cg";
 function Section() {
   return (
     <react.Fragment>
@@ -44,20 +53,22 @@ function Section() {
       <div>
         <h2 className="text-center">خدمات سین کالا</h2>
       </div>
-      <div className="row mx-5 mt-5">
-        <div className=" col">
-          <a href="" className={styles.ad}>
+      <div className="row mx-5 mt-5 container">
+        <div className=" col-md-3">
+          <a href="">
+            {" "}
             <Image
               src="/Group-114.png"
               alt="Picture of the author"
               width={200}
               height={320}
               priority
+              className={styles.ac}
             />
           </a>
         </div>
-        <div className=" col">
-          <a href="" className={styles.ad}>
+        <div className=" col-md-3">
+          <a href="">
             {" "}
             <Image
               src="/Group-115.png"
@@ -65,12 +76,13 @@ function Section() {
               width={200}
               height={320}
               priority
+              className={styles.ac}
             />
           </a>
         </div>{" "}
-        <div className=" col">
+        <div className=" col-md-3">
           {" "}
-          <a href="" className={styles.ad}>
+          <a href="">
             {" "}
             <Image
               src="/Group-116.png"
@@ -78,12 +90,13 @@ function Section() {
               width={200}
               height={320}
               priority
+              className={styles.ac}
             />
           </a>
         </div>{" "}
-        <div className=" col">
+        <div className=" col-md-3">
           {" "}
-          <a href="" className={styles.ad}>
+          <a href="">
             {" "}
             <Image
               src="/Group-117.png"
@@ -91,6 +104,7 @@ function Section() {
               width={200}
               height={320}
               priority
+              className={styles.ac}
             />
           </a>
         </div>
@@ -107,85 +121,67 @@ function Section() {
       <div className="row text-center my-5 container">
         <h3>دستـــه بندی ها</h3>
       </div>
-      <div className="row text-center container">
-        <div className="col">
+      <div className="row text-center container mb-5">
+        <div className="col-md-4">
           {" "}
-          <a className={styles.ad} href="">
-            <Image
-              src="/Group 141.png"
-              alt="Picture of the author"
-              width={300}
-              height={100}
-              priority
-            />
-          </a>
+          <button type="" className={styles.ad}>
+            <div className={styles.af}>
+              <MdLunchDining className={styles.ag} />
+            </div>
+            <p className={styles.at}>غـــذایی</p>
+          </button>
         </div>
-        <div className="col">
+        <div className="col-md-4">
           {" "}
-          <a className={styles.ad} href="">
-            <Image
-              src="/Group 2.png"
-              alt="Picture of the author"
-              width={300}
-              height={100}
-              priority
-            />
-          </a>
+          <button type="" className={styles.ad}>
+            <div className={styles.af}>
+              <MdShoppingCart className={styles.ag} />
+            </div>
+            <p className={styles.ar}> فروشگاه های زنجیره ای</p>
+          </button>
         </div>
-        <div className="col">
+        <div className="col-md-4">
           {" "}
-          <a className={styles.ad} href="">
-            <Image
-              src="/Group 1.png"
-              alt="Picture of the author"
-              width={300}
-              height={100}
-              priority
-            />
-          </a>
+          <button type="" className={styles.ad}>
+            <div className={styles.af}>
+              <GiBrickWall className={styles.ag} />
+            </div>
+            <p className={styles.ar}>مصالح ساختمانی</p>
+          </button>
         </div>
       </div>
       <div className="row text-center container">
-        <div className="col">
+        <div className="col-md-4">
           {" "}
-          <a className={styles.ad} href="">
-            <Image
-              src="/Group 144.png"
-              alt="Picture of the author"
-              width={300}
-              height={100}
-              priority
-            />
-          </a>
+          <button type="" className={styles.ad}>
+            <div className={styles.af}>
+              <GiLipstick className={styles.ag} />
+            </div>
+            <p className={styles.at}>زیبـــــایی</p>
+          </button>
         </div>
-        <div className="col">
+        <div className="col-md-4">
           {" "}
-          <a className={styles.ad} href="">
-            <Image
-              src="/Group 143.png"
-              alt="Picture of the author"
-              width={300}
-              height={100}
-              priority
-            />
-          </a>
+          <button type="" className={styles.ad}>
+            <div className={styles.af}>
+              <GiAmpleDress className={styles.ag} />
+            </div>
+            <p className={styles.at}>پوشــــاک</p>
+          </button>
         </div>
-        <div className="col">
+        <div className="col-md-4">
           {" "}
-          <a className={styles.ad} href="">
-            <Image
-              src="/Group 142.png"
-              alt="Picture of the author"
-              width={300}
-              height={100}
-              priority
-            />
-          </a>
+          <button type="" className={styles.ad}>
+            <div className={styles.af}>
+              <GiCarousel className={styles.ag} />
+            </div>
+            <p className={styles.ar}>تفریحی و ورزشی</p>
+          </button>
         </div>
       </div>
       <div className="row container my-5 container">
         {" "}
-        <div className="col-6 pe-5" dir="rtl">
+        <div className="col-md-6 pe-5" dir="rtl">
           <Image
             src="/all.png"
             alt="Picture of the author"
@@ -194,7 +190,7 @@ function Section() {
             priority
           />
         </div>{" "}
-        <div className="col-6" dir="rtl">
+        <div className="col-md-6" dir="rtl">
           <h3>درباره ما</h3>
           <br />
           <p>
@@ -214,10 +210,10 @@ function Section() {
       </div>
       <div className="row container pb-4" dir="rtl">
         {" "}
-        <div className="col-4">
+        <div className="col-md-4">
           <Form />
         </div>{" "}
-        <div className="col-8 align-self-end px-5">
+        <div className="col-md-8 align-self-end px-5">
           {" "}
           <Image
             src="/loc.png"
@@ -243,7 +239,7 @@ function Section() {
             </div>
             <div className="col-md-4">
               <div className="row  ">
-                <div className="col ">
+                <div className="col-md-4 ">
                   <p className={styles.ti}>products</p>
                   <ul className={styles.ul}>
                     <a href="" className={styles.ul}>
@@ -266,7 +262,7 @@ function Section() {
                     </a>
                   </ul>
                 </div>{" "}
-                <div className="col">
+                <div className="col-md-4">
                   <p className={styles.ti}>services</p>
                   <ul className={styles.ul}>
                     <a href="" className={styles.ul}>
@@ -288,7 +284,7 @@ function Section() {
                     </a>
                   </ul>
                 </div>{" "}
-                <div className="col">
+                <div className="col-md-4">
                   <p className={styles.ti}>contacts</p>
                   <ul className={styles.ul}>
                     <a href="" className={styles.ul}>
@@ -315,30 +311,28 @@ function Section() {
             </div>
             <div className="col-md-4 " dir="rtl">
               <div className="row">
-                <input type="image" className={styles.myButton} value="" />
+                <div class="input">
+                  <button class={styles.ba}>
+                    <FaTelegramPlane className={styles.bb} />
+                  </button>
+                  <input
+                    type="text"
+                    id="autoSizingInputGroup"
+                    placeholder="E-mail"
+                    className={styles.bc}
+                  />
+                </div>
               </div>
               <div className="row my-3">
-                <Image
-                  src="/group-171.png"
-                  alt="Picture of the author"
-                  width={30}
-                  height={30}
-                  priority
-                />{" "}
-                <Image
-                  src="/group-172.png"
-                  alt="Picture of the author"
-                  width={30}
-                  height={30}
-                  priority
-                />{" "}
-                <Image
-                  src="/group-173.png"
-                  alt="Picture of the author"
-                  width={30}
-                  height={30}
-                  priority
-                />
+                <button type="" className={styles.bd}>
+                  <FaFacebookF className={styles.be} />
+                </button>
+                <button type="" className={styles.bd}>
+                  <FaTwitter className={styles.be} />
+                </button>
+                <button type="" className={styles.bd}>
+                  <CgTwitter className={styles.be} />
+                </button>
               </div>
             </div>
           </div>
